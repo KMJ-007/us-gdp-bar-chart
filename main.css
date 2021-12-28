@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#graph{
+    background-color: wheat;
+}
+#tooltip{
+    /* background: #8f8282; */
+    background: whitesmoke;
+}
