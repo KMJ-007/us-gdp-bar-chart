@@ -28,7 +28,7 @@ rect:hover{
   background: #aeaeae;
   width: 150px;
   height: 60px;
-  position: absolute;
+  position:absolute;
   top: 450px;
   left: 100px;
   display: none;
