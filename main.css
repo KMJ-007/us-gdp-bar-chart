@@ -1,0 +1,38 @@
+*{
+    background: lightblue;
+    }
+    
+    body{
+      display: flex;
+      height: 100vh;
+      flex-direction: vertical;
+      align-content: center;
+      justify-content: center;
+    }
+    
+    #title{
+        text-align: center;
+    }
+    
+    svg{
+      border: 2px solid black;
+      background: white;
+      box-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+    }
+    
+    .dot{
+      opacity: 0.7;
+      stroke: black;
+    }
+    
+    #tooltip{
+      display: flex;
+      flex-direction: vertical;
+      background: #eaeaea;
+      color: black;
+      border-radius: 4px;
+      padding: 2px;
+      box-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+    }
+    
+    
