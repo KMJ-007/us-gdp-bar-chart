@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1 id="title">United States Educational Attainment</h1>
-    <p id="description">
-      Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)
-    </p>
-    <div id='Graph'></div>
-    <div id='source'>Source: <a href='https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx'>USDA Economic Research Service</a></div>
+  <br>
+  <div id="data-selector">
+    <a href="?data=videogames">Video Game Set</a> | 
+    <a href="?data=movies">Movies Data Set</a> | 
+    <a href="?data=kickstarter">Kickstarter Data Set</a>
   </div>
+  
+  <h1 id="title"></h1>
+  <p id="description"></p>
+  <svg id="tree-map"></svg>
+  <svg id="legend"> </svg>
+  
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.2.1/d3.js"  ></script>
