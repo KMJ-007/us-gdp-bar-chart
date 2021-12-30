@@ -1,0 +1,38 @@
+body{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  svg{
+    background: white;
+    border: 2px solid black;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.8);
+   }
+  
+  rect:hover{
+    stroke: black;
+    stroke-width: 2;
+    }
+  
+  .d3-tip{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+  }
+  
+  #legend{
+    fill: pink;
+    border: 2px black solid;
+  }
