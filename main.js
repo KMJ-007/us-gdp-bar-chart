@@ -8,6 +8,7 @@ fetch(url)
     });
 
 function chartMaker(data){
+    // console.log(data)
     const width=800;
     const height=460;
     const padding=40;
@@ -43,14 +44,11 @@ function chartMaker(data){
         .attr("width","3")
         .attr("height",(d)=>height-padding-yScale(d[1]))
         // .style('fill', '#33adff')
-        .on("mouseover",(d,i)=>{
-            // console.log(data);
-            // console.log(d.fromElement.__data__[0]);
-            var d=[...d.fromElement.__data__];
-            // console.log(d)
+        .on("mouseover",(i,d)=>{
             tooltip.classList.add("show");
             tooltip.style.left=i*3+padding*2+"px";
             tooltip.setAttribute('data-date',d[0]);
+            
             tooltip.innerHTML=
                 `${d[0]}"<br>"${d[1]}"Billion"`;
             

@@ -29,8 +29,8 @@ rect:hover{
   width: 150px;
   height: 60px;
   position:absolute;
-  top: 450px;
-  left: 100px;
+  top: 350px;
+  left: 250px;
   display: none;
   flex-direction: vertical;
   align-items: center;
