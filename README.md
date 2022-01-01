@@ -1,6 +1,6 @@
 # Choropleth-Map
 
-In this project i have made  as part of my Free code camp project
+In this project  i have made us-students education graph as part of my Free code camp project
 
 ## link:-
 link of project:- [Update soon!](#)
