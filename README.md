@@ -1,6 +1,6 @@
-# US-Bar-Chart 
+# Heat-Map
 
-In this project i have made us-bar-chart as part of my Free code camp project
+In this project i have made Heat-map as part of my Free code camp project
 
 ## link:-
 link of project:- [Update soon!](#)
