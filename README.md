@@ -3,7 +3,7 @@
 In this project i have made us-bar-chart as part of my Free code camp project
 
 ## link:-
-link of project:- [Update soon!](#)
+link of project:- [https://kmj-007.github.io/us-gdp-bar-chart/](https://kmj-007.github.io/us-gdp-bar-chart/)
 
 # Technology's used to build:-
 ![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
